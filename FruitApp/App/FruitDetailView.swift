@@ -19,24 +19,40 @@ struct FruitDetailView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .center, spacing: 20) {
                     //: HEADER
+                    FruitHeaderView(fruit: furit)
                     VStack(alignment: .leading, spacing: 20) {
                         //: TITLE
                         Text(furit.title)
+                            .font(.largeTitle)
+                            .fontWeight(.heavy)
+                            .foregroundColor(furit.gradientColors[1])
 
                         //: HEADLINE
+                        Text(furit.headline)
+                            .font(.headline)
+                            .multilineTextAlignment(.leading)
 
                         //: NUTRIENTS
 
                         //: SUBHEADLINE
+                        Text("Learn more about \(furit.title)".uppercased())
+                            .fontWeight(.bold)
+                            .foregroundColor(furit.gradientColors[1])
 
                         //: DESCRIPTION
+                        Text(furit.description)
+                            .multilineTextAlignment(.leading)
 
                         //: LINK
                     }
                     .padding(.horizontal)
                     .frame(maxWidth: 640, alignment: .center)
                 } //: VSTACK
+                .navigationTitle(furit.title)
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar(.hidden)
             } //: SCROLL
+            .edgesIgnoringSafeArea(.top)
         } //: NAVIGATION
     }
 }
