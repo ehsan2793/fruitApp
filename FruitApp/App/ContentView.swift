@@ -26,7 +26,6 @@ struct ContentView: View {
                 } //: LOOP
             } //: LIST
             .navigationTitle("Fruits")
-
             .toolbar {
                 ToolbarItem {
                     Button(action: {
@@ -34,6 +33,9 @@ struct ContentView: View {
                     }) {
                         Image(systemName: "slider.horizontal.3")
                     } //: BUTT
+                    .sheet(isPresented: $isShowingSettings) {
+                        SettingsView()
+                    }
                 } // TOOLBAR ITEM
             } //: TOOLBAR
         } //: NAVIGATION
