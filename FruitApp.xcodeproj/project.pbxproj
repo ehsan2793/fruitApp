@@ -21,6 +21,7 @@
 		7CCCC49B2A2C73C300C46F5B /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCC49A2A2C73C300C46F5B /* FruitHeaderView.swift */; };
 		7CCCC49D2A2C777800C46F5B /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCC49C2A2C777800C46F5B /* SourceLinkView.swift */; };
 		7CCCC49F2A2C847A00C46F5B /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCC49E2A2C847A00C46F5B /* FruitNutrientsView.swift */; };
+		7CCCC4A12A2C8DAA00C46F5B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCC4A02A2C8DAA00C46F5B /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		7CCCC49A2A2C73C300C46F5B /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		7CCCC49C2A2C777800C46F5B /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		7CCCC49E2A2C847A00C46F5B /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		7CCCC4A02A2C8DAA00C46F5B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				7CCCC4782A2BFF2900C46F5B /* FruitAppApp.swift */,
 				7CCCC47A2A2BFF2900C46F5B /* ContentView.swift */,
+				7CCCC4A02A2C8DAA00C46F5B /* SettingsView.swift */,
 				7CCCC48C2A2C55B400C46F5B /* OnboardingView.swift */,
 				7CCCC4982A2C6F3800C46F5B /* FruitDetailView.swift */,
 			);
@@ -211,6 +214,7 @@
 				7CCCC48D2A2C55B400C46F5B /* OnboardingView.swift in Sources */,
 				7CCCC4902A2C595100C46F5B /* FruitModel.swift in Sources */,
 				7CCCC4792A2BFF2900C46F5B /* FruitAppApp.swift in Sources */,
+				7CCCC4A12A2C8DAA00C46F5B /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
