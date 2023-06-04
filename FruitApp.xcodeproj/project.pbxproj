@@ -13,6 +13,7 @@
 		7CCCC4802A2BFF2A00C46F5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCCC47F2A2BFF2A00C46F5B /* Preview Assets.xcassets */; };
 		7CCCC4892A2C2A7900C46F5B /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCC4882A2C2A7900C46F5B /* FruitCardView.swift */; };
 		7CCCC48B2A2C331100C46F5B /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCC48A2A2C331100C46F5B /* StartButtonView.swift */; };
+		7CCCC48D2A2C55B400C46F5B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCC48C2A2C55B400C46F5B /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7CCCC47F2A2BFF2A00C46F5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CCCC4882A2C2A7900C46F5B /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		7CCCC48A2A2C331100C46F5B /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		7CCCC48C2A2C55B400C46F5B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				7CCCC4782A2BFF2900C46F5B /* FruitAppApp.swift */,
 				7CCCC47A2A2BFF2900C46F5B /* ContentView.swift */,
+				7CCCC48C2A2C55B400C46F5B /* OnboardingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				7CCCC4892A2C2A7900C46F5B /* FruitCardView.swift in Sources */,
 				7CCCC48B2A2C331100C46F5B /* StartButtonView.swift in Sources */,
 				7CCCC47B2A2BFF2900C46F5B /* ContentView.swift in Sources */,
+				7CCCC48D2A2C55B400C46F5B /* OnboardingView.swift in Sources */,
 				7CCCC4792A2BFF2900C46F5B /* FruitAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
