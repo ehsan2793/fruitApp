@@ -43,6 +43,18 @@ struct SettingsView: View {
                     // MARK: - SECTION 2
 
                     // MARK: - SECTION 3
+
+                    GroupBox(content: {
+                        SettingsRowView(name: "Developer", content: "Ehsan")
+                        SettingsRowView(name: "Designer", content: "Ehsan Rahimi")
+                        SettingsRowView(name: "Compatibility", content: "IOS 16.4")
+                        SettingsRowView(name: "Website", linkLabel: "Ehsan Apps", linkDestination: "ehsan-rahimi-protfolio.netlify.app")
+                        SettingsRowView(name: "Twitter", linkLabel: "@EhsanR", linkDestination: "twitter.com/ehsanr")
+                        SettingsRowView(name: "SwiftUI", content: "2.0")
+                        SettingsRowView(name: "Version", content: "1.1.0")
+                    }, label: {
+                        SettingLabelView(labelText: "Application", labelImage: "apps.iphone")
+                    })
                 } //: VSTACK
                 .navigationTitle("Setting")
                 .navigationBarTitleDisplayMode(.large)
