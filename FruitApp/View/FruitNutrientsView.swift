@@ -18,7 +18,21 @@ struct FruitNutrientsView: View {
     var body: some View {
         GroupBox {
             DisclosureGroup("Nutritional value per 100g") {
-                Text("Hl")
+                ForEach(0 ..< nutrients.count, id: \.self) { index in
+                    Divider()
+                        .padding(.vertical, 2)
+                    HStack {
+                        Group {
+                            Image(systemName: "info.circle")
+                            Text(nutrients[index])
+                        }
+                        .foregroundColor(fruit.gradientColors[1])
+                        .font(Font.system(.body).bold())
+                        Spacer(minLength: 25)
+                        Text(fruit.nutrition[index])
+                            .multilineTextAlignment(.trailing)
+                    }
+                }
             }
         } //: BOX
     }
