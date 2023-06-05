@@ -17,7 +17,7 @@ struct FruitRowView: View {
     var body: some View {
         HStack {
             Image(furit.image)
-                .renderingMode(.original) // this prevents the image to be colorrise by the system link color when added to list (avoid system setting)
+                .renderingMode(.original) // this prevents the image to be colorize by the system link color when added to list (avoid system setting)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 80, height: 80, alignment: .center)

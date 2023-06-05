@@ -9,16 +9,17 @@ import SwiftUI
 
 struct StartButtonView: View {
     // MARK: - PORPERTIES
-    @AppStorage("isOnboarding") var isOnboarding:Bool?
+
+    @AppStorage("isOnboarding") var isOnboarding: Bool?
+
     // MARK: - BODY
 
     var body: some View {
         Button(action: {
             isOnboarding = false
         }) {
-            HStack( alignment: .center, spacing: 8) {
+            HStack(alignment: .center, spacing: 8) {
                 Text("Start")
-
                 Image(systemName: "arrow.right.circle")
                     .imageScale(.large)
             } //: HSTACK
@@ -29,7 +30,7 @@ struct StartButtonView: View {
                     .strokeBorder(Color.white, lineWidth: 1.25)
             )
         } //: BUTTON
-        .tint(.white) // this will force while color, no matter if user changes its setting to dark or white
+        .tint(.white) // this will force white color, no matter if user changes its setting to dark or light
     }
 }
 

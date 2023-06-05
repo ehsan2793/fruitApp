@@ -102,7 +102,6 @@
 				7CCCC47A2A2BFF2900C46F5B /* ContentView.swift */,
 				7CCCC4A02A2C8DAA00C46F5B /* SettingsView.swift */,
 				7CCCC48C2A2C55B400C46F5B /* OnboardingView.swift */,
-				7CCCC4982A2C6F3800C46F5B /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -111,13 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				7CCCC4882A2C2A7900C46F5B /* FruitCardView.swift */,
+				7CCCC48A2A2C331100C46F5B /* StartButtonView.swift */,
+				7CCCC4942A2C671B00C46F5B /* FruitRowView.swift */,
+				7CCCC4982A2C6F3800C46F5B /* FruitDetailView.swift */,
+				7CCCC49A2A2C73C300C46F5B /* FruitHeaderView.swift */,
+				7CCCC49E2A2C847A00C46F5B /* FruitNutrientsView.swift */,
+				7CCCC49C2A2C777800C46F5B /* SourceLinkView.swift */,
 				7CC608732A2CFC7B0020E32C /* SettingsRowView.swift */,
 				7CCCC4A22A2C9BE900C46F5B /* SettingLabelView.swift */,
-				7CCCC4942A2C671B00C46F5B /* FruitRowView.swift */,
-				7CCCC48A2A2C331100C46F5B /* StartButtonView.swift */,
-				7CCCC49A2A2C73C300C46F5B /* FruitHeaderView.swift */,
-				7CCCC49C2A2C777800C46F5B /* SourceLinkView.swift */,
-				7CCCC49E2A2C847A00C46F5B /* FruitNutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
